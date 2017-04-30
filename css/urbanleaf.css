@@ -18,7 +18,10 @@ body {
 	color: #fff;
 	text-align: center;
 	font-weight: 700;
-	letter-spacing: -1px;
+}
+
+.kerned {
+	letter-spacing: -0.25px;
 }
 
 main {
@@ -145,7 +148,7 @@ img {
 	float: left;
 }
 .register-form button {
-	height: 66px;
+	height: auto;
 	line-height: 66px;
 	text-transform: uppercase;
 	width: 220px;
