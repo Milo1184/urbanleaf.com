@@ -24,13 +24,36 @@
 	<main class="wrap">
 		<div class="middle">
 			<div class="inner">
-				<a href="#" id="logo"><img src="images/logo.png" alt="UrbanLeaf" title="UrbanLeaf"></a>
-				<p>Australia’s first cannabis <br>brand coming soon.</p>
-				<div class="button-1-holder">
-					<a id="first-btn" href="#" class="button-1">Keep Me Posted</a>
-					<a href="http://cannahealth.com.au/" class="button-1">Follow Us</a>
-					<a id="last-btn" href="http://cannahealth.com.au/" class="button-1">Investors Centre</a>
-					<div class="clear"></div>
+				<div class="container">
+					<div class="register-form">
+						<a class="close-btn register-form-slide" href="#">Close</a>
+						<form action="mailer.php" method="post" id="subForm">
+							<h2>Register your details here.</h2>
+					        <input id="fieldbejhl" name="cm-f-bejhl" type="text" placeholder="First Name*" required />
+					        <input id="fieldbejhr" name="cm-f-bejhr" type="text" placeholder="Last Name*" required />
+					        <input id="fieldbejhy" name="cm-f-bejhy" type="text" placeholder="Postcode*" required />
+					        <input id="fieldEmail" name="cm-xujdyy-xujdyy" type="email" placeholder="Email*" required />
+							<div class="clear"></div>
+							
+							<!--<div class="checkbox">
+								<input id="fieldbejdh-0" name="cm-fo-bejdh" value="1638819" type="checkbox" /> <label for="fieldbejdh-0">Keep me posted with future news and updates</label>
+							</div>-->			
+
+							<button type="submit">Submit</button>
+						</form>
+						
+						<div id="form-message"></div>
+					</div>
+					
+					<div class="content">
+						<a href="#" id="logo"><img src="images/logo.png" alt="UrbanLeaf" title="Cannatrek Coming Soon"></a>
+						<p>Australia's first cannabis<br>farm planting soon.</p>
+						<div class="button-1-holder">
+							<a href="#" id="first-btn" class="button-1 register-form-slide">Keep Me Posted</a>
+							<a id="last-btn" href="https://www.facebook.com/UrbanLeaf-1224848597603942/" target="_blank" class="button-1">Follow Us</a>
+							<div class="clear"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
