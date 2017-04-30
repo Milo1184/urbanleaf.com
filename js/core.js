@@ -41,7 +41,7 @@ $(document).ready(function() {
 			})
 			.done(function() {
 					$('#subForm').hide();
-					$('#form-message').html('<h2>Thank you for your registeration.</h2><p>We will keep you posted and contact you shortly.</p>');
+					$('#form-message').html('<h2>Thank you for your registration.</h2><p>We will keep you posted and contact you shortly.</p>');
 					$('#form-message').fadeIn('fast');
 					setTimeout(function() {
 						$('.content').slideToggle('fast');
